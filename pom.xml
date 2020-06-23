@@ -12,6 +12,8 @@
         <module>dubbo-provider</module>
         <module>dubbo-consumer</module>
         <module>common-api</module>
+        <module>boot-dubbo-provider</module>
+        <module>boot-dubbo-consumer</module>
     </modules>
 
     <dependencies>

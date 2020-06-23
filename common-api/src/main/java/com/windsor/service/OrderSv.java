@@ -1,5 +1,9 @@
 package com.windsor.service;
 
+import com.windsor.beans.UserAddress;
+
+import java.util.List;
+
 /**
  * 订单接口类
  *
@@ -11,6 +15,7 @@ public interface OrderSv {
      * 支援地点列表
      *
      * @throws Exception
+     * @return
      */
-    void supportDests(String userId) throws Exception;
+    List<UserAddress> supportDests(String userId) throws Exception;
 }

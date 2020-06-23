@@ -17,8 +17,8 @@ public class MainApp {
     public static void main(String[] args) throws Exception {
         ClassPathXmlApplicationContext ioc = new ClassPathXmlApplicationContext("consumer.xml");
         ioc.start();
-        /*OrderSv bean = ioc.getBean(OrderSv.class);
-        bean.supportDests("1003");*/
+        OrderSv bean = ioc.getBean(OrderSv.class);
+        bean.supportDests("1003");
 
         /*UserSv userService = (UserSv)ioc.getBean("userService");
         List<UserAddress> address = userService.getAddress("1001");
