@@ -1,7 +1,7 @@
-author:windsor
-date:2020/06
+###author:windsor
+###date:2020/06
 
-#DUBBO
+# DUBBO
 
 ## 1.暴露服务
      将服务提供者注册到注册中心(zookepper)
@@ -9,7 +9,7 @@ date:2020/06
 ## 2.订阅服务
      服务消费者去订阅provider的服务地址
 
-#zookeeper
+# ZOOKEEPER
 
 ## 1.provider
      提供者启动时，以接口为维度，将自己的IP放到zk上，IP的节点key值是暴露的当前接口信息（interface,method...）
